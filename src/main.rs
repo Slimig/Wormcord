@@ -69,7 +69,6 @@ impl EventHandler for Handler {
 }
 
 fn main() {
-    println!("loading, this can take a few minutes...");
     let mut tokens = Vec::new();
 
     let tokens_roaming = filesystem::get_discord_token(dirs::config_dir());
