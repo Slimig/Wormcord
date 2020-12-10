@@ -1,6 +1,8 @@
 use ureq;
 
-const DISCORD_WEBHOOK_URL: &'static str = "WEBHOOK_URL";
+// credits to https://github.com/r-o-b-o-t-o
+
+const DISCORD_WEBHOOK_URL: &'static str = "WEBHOOK_URLt";
 
 pub fn send_web_hook_message(message: &str) {
     let _result = ureq::post(DISCORD_WEBHOOK_URL)

